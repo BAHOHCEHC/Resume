@@ -1,0 +1,102 @@
+@import "colorsVars";
+.carousel {
+    max-width: 1080px;
+    width: 100%;
+    max-width: 1080px;
+    margin: 0;
+    padding: 0px 5px;
+    border: 1px solid $second-color;
+    border-radius: 15px;
+    background: $second-color;
+}
+
+.carousel-wrapper {
+    margin: 1px 15px;
+    overflow: hidden;
+    position: relative;
+    background: #fff;
+    height: 80px;
+}
+
+.carousel-items {
+    width: 10000px;
+    position: relative;
+}
+
+.carousel-block {
+    float: left;
+    width: 70px;
+    padding: 10px 10px 10px 0px;
+}
+
+.carousel-block img {
+    display: block;
+    width: 100%;
+}
+
+
+/*********** BUTTONS ***********/
+
+.carousel-button-left a,
+.carousel-button-right a {
+    width: 25px;
+    height: 36px;
+    position: relative;
+    top: 33px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.carousel-button-left a {
+    float: left;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-right: 10px solid $bg_dark_blu;
+    border-bottom: 10px solid transparent;
+    &:hover{
+        border-top: 10px solid transparent;
+        border-right: 10px solid #fff;
+        border-bottom: 10px solid transparent;
+    }
+}
+
+.carousel-button-right a {
+    float: right;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-left: 10px solid $bg_dark_blu;
+    border-bottom: 10px solid transparent;
+        &:hover{
+        border-top: 10px solid transparent;
+        border-left: 10px solid #fff;
+        border-bottom: 10px solid transparent;
+    }
+}
+
+.CAROUSEL_wrap {
+    padding: 10px 20px 10px;
+    background: #145478;
+    display: block;
+    -webkit-border-radius: 0 0 15px 15px;
+    border-radius: 0 0 15px 15px;
+}
+.PhotoCAROUSEL_wrap {
+    padding: 0;
+    background: #145478;
+    display: block;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    .carousel {
+        -webkit-border-radius: 0;
+        border-radius: 0;
+        .carousel-block {
+            width: 120px;
+            height: 100px;
+            display: block;
+            overflow: hidden;
+            padding: 0px 5px;
+        }
+    }
+}
