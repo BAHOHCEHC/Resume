@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 /* line 2, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_carousel.scss */
 .carousel {
   max-width: 1080px;
@@ -8,7 +9,8 @@
   padding: 0px 5px;
   border: 1px solid #85F9D6;
   border-radius: 15px;
-  background: #85F9D6; }
+  background: #85F9D6;
+}
 
 /* line 13, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_carousel.scss */
 .carousel-wrapper {
@@ -16,23 +18,27 @@
   overflow: hidden;
   position: relative;
   background: #fff;
-  height: 80px; }
+  height: 80px;
+}
 
 /* line 21, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_carousel.scss */
 .carousel-items {
   width: 10000px;
-  position: relative; }
+  position: relative;
+}
 
 /* line 26, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_carousel.scss */
 .carousel-block {
   float: left;
   width: 70px;
-  padding: 10px 10px 10px 0px; }
+  padding: 10px 10px 10px 0px;
+}
 
 /* line 32, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_carousel.scss */
 .carousel-block img {
   display: block;
-  width: 100%; }
+  width: 100%;
+}
 
 /*********** BUTTONS ***********/
 /* line 40, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_carousel.scss */
@@ -43,7 +49,8 @@
   position: relative;
   top: 33px;
   cursor: pointer;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 /* line 50, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_carousel.scss */
 .carousel-button-left a {
@@ -52,12 +59,15 @@
   height: 0;
   border-top: 10px solid transparent;
   border-right: 10px solid #145478;
-  border-bottom: 10px solid transparent; }
-  /* line 57, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_carousel.scss */
-  .carousel-button-left a:hover {
-    border-top: 10px solid transparent;
-    border-right: 10px solid #fff;
-    border-bottom: 10px solid transparent; }
+  border-bottom: 10px solid transparent;
+}
+
+/* line 57, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_carousel.scss */
+.carousel-button-left a:hover {
+  border-top: 10px solid transparent;
+  border-right: 10px solid #fff;
+  border-bottom: 10px solid transparent;
+}
 
 /* line 64, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_carousel.scss */
 .carousel-button-right a {
@@ -66,12 +76,15 @@
   height: 0;
   border-top: 10px solid transparent;
   border-left: 10px solid #145478;
-  border-bottom: 10px solid transparent; }
-  /* line 71, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_carousel.scss */
-  .carousel-button-right a:hover {
-    border-top: 10px solid transparent;
-    border-left: 10px solid #fff;
-    border-bottom: 10px solid transparent; }
+  border-bottom: 10px solid transparent;
+}
+
+/* line 71, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_carousel.scss */
+.carousel-button-right a:hover {
+  border-top: 10px solid transparent;
+  border-left: 10px solid #fff;
+  border-bottom: 10px solid transparent;
+}
 
 /* line 78, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_carousel.scss */
 .CAROUSEL_wrap {
@@ -79,7 +92,8 @@
   background: #145478;
   display: block;
   -webkit-border-radius: 0 0 15px 15px;
-  border-radius: 0 0 15px 15px; }
+  border-radius: 0 0 15px 15px;
+}
 
 /* line 85, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_carousel.scss */
 .PhotoCAROUSEL_wrap {
@@ -87,18 +101,23 @@
   background: #145478;
   display: block;
   -webkit-border-radius: 0;
-  border-radius: 0; }
-  /* line 91, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_carousel.scss */
-  .PhotoCAROUSEL_wrap .carousel {
-    -webkit-border-radius: 0;
-    border-radius: 0; }
-    /* line 94, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_carousel.scss */
-    .PhotoCAROUSEL_wrap .carousel .carousel-block {
-      width: 120px;
-      height: 100px;
-      display: block;
-      overflow: hidden;
-      padding: 0px 5px; }
+  border-radius: 0;
+}
+
+/* line 91, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_carousel.scss */
+.PhotoCAROUSEL_wrap .carousel {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+
+/* line 94, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_carousel.scss */
+.PhotoCAROUSEL_wrap .carousel .carousel-block {
+  width: 120px;
+  height: 100px;
+  display: block;
+  overflow: hidden;
+  padding: 0px 5px;
+}
 
 /* FONT PATH
  * -------------------------- */
@@ -107,7 +126,8 @@
   src: url("../fonts/fontawesome-webfont.eot?v=4.7.0");
   src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("../fonts/fontawesome-webfont.woff?v=4.7.0") format("woff"), url("../fonts/fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal;
+}
 
 /* line 4, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_core.scss */
 .fa {
@@ -116,44 +136,54 @@
   font-size: inherit;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+  -moz-osx-font-smoothing: grayscale;
+}
 
 /* makes the font 33% larger relative to the icon container */
 /* line 5, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_larger.scss */
 .fa-lg {
   font-size: 1.33333em;
   line-height: 0.75em;
-  vertical-align: -15%; }
+  vertical-align: -15%;
+}
 
 /* line 10, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_larger.scss */
 .fa-2x {
-  font-size: 2em; }
+  font-size: 2em;
+}
 
 /* line 11, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_larger.scss */
 .fa-3x {
-  font-size: 3em; }
+  font-size: 3em;
+}
 
 /* line 12, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_larger.scss */
 .fa-4x {
-  font-size: 4em; }
+  font-size: 4em;
+}
 
 /* line 13, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_larger.scss */
 .fa-5x {
-  font-size: 5em; }
+  font-size: 5em;
+}
 
 /* line 3, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_fixed-width.scss */
 .fa-fw {
   width: 1.28571em;
-  text-align: center; }
+  text-align: center;
+}
 
 /* line 4, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_list.scss */
 .fa-ul {
   padding-left: 0;
   margin-left: 2.14286em;
-  list-style-type: none; }
-  /* line 8, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_list.scss */
-  .fa-ul > li {
-    position: relative; }
+  list-style-type: none;
+}
+
+/* line 8, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_list.scss */
+.fa-ul>li {
+  position: relative;
+}
 
 /* line 10, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_list.scss */
 .fa-li {
@@ -161,110 +191,137 @@
   left: -2.14286em;
   width: 2.14286em;
   top: 0.14286em;
-  text-align: center; }
-  /* line 16, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_list.scss */
-  .fa-li.fa-lg {
-    left: -1.85714em; }
+  text-align: center;
+}
+
+/* line 16, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_list.scss */
+.fa-li.fa-lg {
+  left: -1.85714em;
+}
 
 /* line 4, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_bordered-pulled.scss */
 .fa-border {
   padding: .2em .25em .15em;
   border: solid 0.08em #eee;
-  border-radius: .1em; }
+  border-radius: .1em;
+}
 
 /* line 10, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_bordered-pulled.scss */
 .fa-pull-left {
-  float: left; }
+  float: left;
+}
 
 /* line 11, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_bordered-pulled.scss */
 .fa-pull-right {
-  float: right; }
+  float: right;
+}
 
 /* line 14, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_bordered-pulled.scss */
 .fa.fa-pull-left {
-  margin-right: .3em; }
+  margin-right: .3em;
+}
 
 /* line 15, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_bordered-pulled.scss */
 .fa.fa-pull-right {
-  margin-left: .3em; }
+  margin-left: .3em;
+}
 
 /* Deprecated as of 4.4.0 */
 /* line 19, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_bordered-pulled.scss */
 .pull-right {
-  float: right; }
+  float: right;
+}
 
 /* line 20, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_bordered-pulled.scss */
 .pull-left {
-  float: left; }
+  float: left;
+}
 
 /* line 23, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_bordered-pulled.scss */
 .fa.pull-left {
-  margin-right: .3em; }
+  margin-right: .3em;
+}
 
 /* line 24, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_bordered-pulled.scss */
 .fa.pull-right {
-  margin-left: .3em; }
+  margin-left: .3em;
+}
 
 /* line 4, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_animated.scss */
 .fa-spin {
   -webkit-animation: fa-spin 2s infinite linear;
-  animation: fa-spin 2s infinite linear; }
+  animation: fa-spin 2s infinite linear;
+}
 
 /* line 9, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_animated.scss */
 .fa-pulse {
   -webkit-animation: fa-spin 1s infinite steps(8);
-  animation: fa-spin 1s infinite steps(8); }
+  animation: fa-spin 1s infinite steps(8);
+}
 
 @-webkit-keyframes fa-spin {
   0% {
     -webkit-transform: rotate(0deg);
-    transform: rotate(0deg); }
+    transform: rotate(0deg);
+  }
+
   100% {
     -webkit-transform: rotate(359deg);
-    transform: rotate(359deg); } }
+    transform: rotate(359deg);
+  }
+}
 
 @keyframes fa-spin {
   0% {
     -webkit-transform: rotate(0deg);
-    transform: rotate(0deg); }
+    transform: rotate(0deg);
+  }
+
   100% {
     -webkit-transform: rotate(359deg);
-    transform: rotate(359deg); } }
+    transform: rotate(359deg);
+  }
+}
 
 /* line 4, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_rotated-flipped.scss */
 .fa-rotate-90 {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
   -webkit-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
-  transform: rotate(90deg); }
+  transform: rotate(90deg);
+}
 
 /* line 5, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_rotated-flipped.scss */
 .fa-rotate-180 {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
-  transform: rotate(180deg); }
+  transform: rotate(180deg);
+}
 
 /* line 6, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_rotated-flipped.scss */
 .fa-rotate-270 {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
   -webkit-transform: rotate(270deg);
   -ms-transform: rotate(270deg);
-  transform: rotate(270deg); }
+  transform: rotate(270deg);
+}
 
 /* line 8, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_rotated-flipped.scss */
 .fa-flip-horizontal {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
   -webkit-transform: scale(-1, 1);
   -ms-transform: scale(-1, 1);
-  transform: scale(-1, 1); }
+  transform: scale(-1, 1);
+}
 
 /* line 9, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_rotated-flipped.scss */
 .fa-flip-vertical {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
   -webkit-transform: scale(1, -1);
   -ms-transform: scale(1, -1);
-  transform: scale(1, -1); }
+  transform: scale(1, -1);
+}
 
 /* line 14, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_rotated-flipped.scss */
 :root .fa-rotate-90,
@@ -272,7 +329,8 @@
 :root .fa-rotate-270,
 :root .fa-flip-horizontal,
 :root .fa-flip-vertical {
-  filter: none; }
+  filter: none;
+}
 
 /* line 4, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_stacked.scss */
 .fa-stack {
@@ -281,1765 +339,2185 @@
   width: 2em;
   height: 2em;
   line-height: 2em;
-  vertical-align: middle; }
+  vertical-align: middle;
+}
 
 /* line 12, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_stacked.scss */
-.fa-stack-1x, .fa-stack-2x {
+.fa-stack-1x,
+.fa-stack-2x {
   position: absolute;
   left: 0;
   width: 100%;
-  text-align: center; }
+  text-align: center;
+}
 
 /* line 18, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_stacked.scss */
 .fa-stack-1x {
-  line-height: inherit; }
+  line-height: inherit;
+}
 
 /* line 19, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_stacked.scss */
 .fa-stack-2x {
-  font-size: 2em; }
+  font-size: 2em;
+}
 
 /* line 20, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_stacked.scss */
 .fa-inverse {
-  color: #fff; }
+  color: #fff;
+}
 
 /* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
    readers do not read off random characters that represent icons */
 /* line 4, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-glass:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 5, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-music:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 6, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-search:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 7, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-envelope-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 8, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-heart:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 9, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-star:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 10, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-star-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 11, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-user:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 12, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-film:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 13, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-th-large:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 14, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-th:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 15, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-th-list:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 16, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-check:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 17, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-remove:before,
 .fa-close:before,
 .fa-times:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 18, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-search-plus:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 19, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-search-minus:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 20, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-power-off:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 21, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-signal:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 22, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-gear:before,
 .fa-cog:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 23, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-trash-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 24, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-home:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 25, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-file-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 26, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-clock-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 27, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-road:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 28, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-download:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 29, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-arrow-circle-o-down:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 30, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-arrow-circle-o-up:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 31, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-inbox:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 32, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-play-circle-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 33, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-rotate-right:before,
 .fa-repeat:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 34, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-refresh:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 35, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-list-alt:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 36, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-lock:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 37, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-flag:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 38, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-headphones:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 39, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-volume-off:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 40, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-volume-down:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 41, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-volume-up:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 42, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-qrcode:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 43, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-barcode:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 44, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-tag:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 45, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-tags:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 46, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-book:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 47, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-bookmark:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 48, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-print:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 49, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-camera:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 50, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-font:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 51, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-bold:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 52, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-italic:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 53, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-text-height:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 54, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-text-width:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 55, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-align-left:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 56, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-align-center:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 57, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-align-right:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 58, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-align-justify:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 59, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-list:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 60, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-dedent:before,
 .fa-outdent:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 61, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-indent:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 62, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-video-camera:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 63, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-photo:before,
 .fa-image:before,
 .fa-picture-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 64, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-pencil:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 65, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-map-marker:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 66, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-adjust:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 67, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-tint:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 68, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-edit:before,
 .fa-pencil-square-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 69, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-share-square-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 70, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-check-square-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 71, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-arrows:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 72, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-step-backward:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 73, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-fast-backward:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 74, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-backward:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 75, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-play:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 76, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-pause:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 77, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-stop:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 78, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-forward:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 79, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-fast-forward:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 80, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-step-forward:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 81, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-eject:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 82, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-chevron-left:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 83, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-chevron-right:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 84, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-plus-circle:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 85, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-minus-circle:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 86, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-times-circle:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 87, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-check-circle:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 88, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-question-circle:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 89, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-info-circle:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 90, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-crosshairs:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 91, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-times-circle-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 92, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-check-circle-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 93, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-ban:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 94, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-arrow-left:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 95, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-arrow-right:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 96, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-arrow-up:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 97, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-arrow-down:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 98, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-mail-forward:before,
 .fa-share:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 99, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-expand:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 100, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-compress:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 101, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-plus:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 102, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-minus:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 103, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-asterisk:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 104, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-exclamation-circle:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 105, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-gift:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 106, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-leaf:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 107, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-fire:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 108, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-eye:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 109, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-eye-slash:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 110, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-warning:before,
 .fa-exclamation-triangle:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 111, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-plane:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 112, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-calendar:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 113, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-random:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 114, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-comment:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 115, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-magnet:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 116, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-chevron-up:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 117, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-chevron-down:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 118, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-retweet:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 119, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-shopping-cart:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 120, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-folder:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 121, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-folder-open:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 122, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-arrows-v:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 123, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-arrows-h:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 124, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-bar-chart-o:before,
 .fa-bar-chart:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 125, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-twitter-square:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 126, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-facebook-square:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 127, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-camera-retro:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 128, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-key:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 129, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-gears:before,
 .fa-cogs:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 130, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-comments:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 131, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-thumbs-o-up:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 132, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-thumbs-o-down:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 133, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-star-half:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 134, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-heart-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 135, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-sign-out:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 136, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-linkedin-square:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 137, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-thumb-tack:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 138, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-external-link:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 139, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-sign-in:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 140, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-trophy:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 141, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-github-square:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 142, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-upload:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 143, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-lemon-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 144, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-phone:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 145, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-square-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 146, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-bookmark-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 147, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-phone-square:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 148, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-twitter:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 149, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-facebook-f:before,
 .fa-facebook:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 150, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-github:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 151, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-unlock:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 152, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-credit-card:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 153, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-feed:before,
 .fa-rss:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 154, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-hdd-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 155, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-bullhorn:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 156, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-bell:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 157, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-certificate:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 158, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-hand-o-right:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 159, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-hand-o-left:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 160, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-hand-o-up:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 161, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-hand-o-down:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 162, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-arrow-circle-left:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 163, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-arrow-circle-right:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 164, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-arrow-circle-up:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 165, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-arrow-circle-down:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 166, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-globe:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 167, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-wrench:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 168, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-tasks:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 169, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-filter:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 170, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-briefcase:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 171, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-arrows-alt:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 172, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-group:before,
 .fa-users:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 173, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-chain:before,
 .fa-link:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 174, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-cloud:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 175, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-flask:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 176, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-cut:before,
 .fa-scissors:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 177, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-copy:before,
 .fa-files-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 178, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-paperclip:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 179, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-save:before,
 .fa-floppy-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 180, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-square:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 181, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-navicon:before,
 .fa-reorder:before,
 .fa-bars:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 182, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-list-ul:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 183, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-list-ol:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 184, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-strikethrough:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 185, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-underline:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 186, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-table:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 187, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-magic:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 188, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-truck:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 189, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-pinterest:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 190, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-pinterest-square:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 191, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-google-plus-square:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 192, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-google-plus:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 193, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-money:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 194, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-caret-down:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 195, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-caret-up:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 196, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-caret-left:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 197, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-caret-right:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 198, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-columns:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 199, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-unsorted:before,
 .fa-sort:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 200, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-sort-down:before,
 .fa-sort-desc:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 201, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-sort-up:before,
 .fa-sort-asc:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 202, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-envelope:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 203, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-linkedin:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 204, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-rotate-left:before,
 .fa-undo:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 205, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-legal:before,
 .fa-gavel:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 206, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-dashboard:before,
 .fa-tachometer:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 207, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-comment-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 208, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-comments-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 209, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-flash:before,
 .fa-bolt:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 210, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-sitemap:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 211, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-umbrella:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 212, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-paste:before,
 .fa-clipboard:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 213, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-lightbulb-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 214, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-exchange:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 215, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-cloud-download:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 216, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-cloud-upload:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 217, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-user-md:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 218, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-stethoscope:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 219, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-suitcase:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 220, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-bell-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 221, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-coffee:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 222, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-cutlery:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 223, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-file-text-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 224, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-building-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 225, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-hospital-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 226, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-ambulance:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 227, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-medkit:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 228, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-fighter-jet:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 229, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-beer:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 230, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-h-square:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 231, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-plus-square:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 232, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-angle-double-left:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 233, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-angle-double-right:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 234, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-angle-double-up:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 235, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-angle-double-down:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 236, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-angle-left:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 237, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-angle-right:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 238, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-angle-up:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 239, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-angle-down:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 240, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-desktop:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 241, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-laptop:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 242, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-tablet:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 243, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-mobile-phone:before,
 .fa-mobile:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 244, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-circle-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 245, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-quote-left:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 246, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-quote-right:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 247, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-spinner:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 248, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-circle:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 249, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-mail-reply:before,
 .fa-reply:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 250, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-github-alt:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 251, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-folder-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 252, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-folder-open-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 253, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-smile-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 254, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-frown-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 255, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-meh-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 256, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-gamepad:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 257, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-keyboard-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 258, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-flag-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 259, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-flag-checkered:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 260, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-terminal:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 261, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-code:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 262, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-mail-reply-all:before,
 .fa-reply-all:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 263, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-star-half-empty:before,
 .fa-star-half-full:before,
 .fa-star-half-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 264, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-location-arrow:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 265, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-crop:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 266, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-code-fork:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 267, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-unlink:before,
 .fa-chain-broken:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 268, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-question:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 269, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-info:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 270, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-exclamation:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 271, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-superscript:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 272, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-subscript:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 273, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-eraser:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 274, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-puzzle-piece:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 275, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-microphone:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 276, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-microphone-slash:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 277, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-shield:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 278, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-calendar-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 279, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-fire-extinguisher:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 280, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-rocket:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 281, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-maxcdn:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 282, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-chevron-circle-left:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 283, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-chevron-circle-right:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 284, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-chevron-circle-up:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 285, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-chevron-circle-down:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 286, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-html5:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 287, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-css3:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 288, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-anchor:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 289, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-unlock-alt:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 290, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-bullseye:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 291, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-ellipsis-h:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 292, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-ellipsis-v:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 293, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-rss-square:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 294, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-play-circle:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 295, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-ticket:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 296, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-minus-square:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 297, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-minus-square-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 298, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-level-up:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 299, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-level-down:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 300, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-check-square:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 301, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-pencil-square:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 302, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-external-link-square:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 303, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-share-square:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 304, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-compass:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 305, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-toggle-down:before,
 .fa-caret-square-o-down:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 306, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-toggle-up:before,
 .fa-caret-square-o-up:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 307, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-toggle-right:before,
 .fa-caret-square-o-right:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 308, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-euro:before,
 .fa-eur:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 309, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-gbp:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 310, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-dollar:before,
 .fa-usd:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 311, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-rupee:before,
 .fa-inr:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 312, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-cny:before,
 .fa-rmb:before,
 .fa-yen:before,
 .fa-jpy:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 313, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-ruble:before,
 .fa-rouble:before,
 .fa-rub:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 314, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-won:before,
 .fa-krw:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 315, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-bitcoin:before,
 .fa-btc:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 316, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-file:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 317, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-file-text:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 318, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-sort-alpha-asc:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 319, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-sort-alpha-desc:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 320, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-sort-amount-asc:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 321, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-sort-amount-desc:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 322, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-sort-numeric-asc:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 323, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-sort-numeric-desc:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 324, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-thumbs-up:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 325, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-thumbs-down:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 326, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-youtube-square:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 327, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-youtube:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 328, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-xing:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 329, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-xing-square:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 330, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-youtube-play:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 331, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-dropbox:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 332, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-stack-overflow:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 333, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-instagram:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 334, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-flickr:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 335, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-adn:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 336, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-bitbucket:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 337, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-bitbucket-square:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 338, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-tumblr:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 339, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-tumblr-square:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 340, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-long-arrow-down:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 341, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-long-arrow-up:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 342, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-long-arrow-left:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 343, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-long-arrow-right:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 344, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-apple:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 345, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-windows:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 346, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-android:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 347, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-linux:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 348, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-dribbble:before {
-  content: ""; }
-
-/* line 349, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
-.fa-skype:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 350, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-foursquare:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 351, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-trello:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 352, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-female:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 353, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-male:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 354, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-gittip:before,
 .fa-gratipay:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 355, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-sun-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 356, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-moon-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 357, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-archive:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 358, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-bug:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 359, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-vk:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 360, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-weibo:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 361, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-renren:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 362, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-pagelines:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 363, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-stack-exchange:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 364, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-arrow-circle-o-right:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 365, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-arrow-circle-o-left:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 366, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-toggle-left:before,
 .fa-caret-square-o-left:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 367, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-dot-circle-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 368, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-wheelchair:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 369, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-vimeo-square:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 370, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-turkish-lira:before,
 .fa-try:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 371, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-plus-square-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 372, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-space-shuttle:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 373, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-slack:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 374, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-envelope-square:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 375, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-wordpress:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 376, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-openid:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 377, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-institution:before,
 .fa-bank:before,
 .fa-university:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 378, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-mortar-board:before,
 .fa-graduation-cap:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 379, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-yahoo:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 380, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-google:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 381, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-reddit:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 382, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-reddit-square:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 383, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-stumbleupon-circle:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 384, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-stumbleupon:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 385, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-delicious:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 386, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-digg:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 387, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-pied-piper-pp:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 388, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-pied-piper-alt:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 389, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-drupal:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 390, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-joomla:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 391, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-language:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 392, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-fax:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 393, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-building:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 394, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-child:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 395, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-paw:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 396, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-spoon:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 397, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-cube:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 398, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-cubes:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 399, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-behance:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 400, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-behance-square:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 401, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-steam:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 402, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-steam-square:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 403, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-recycle:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 404, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-automobile:before,
 .fa-car:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 405, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-cab:before,
 .fa-taxi:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 406, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-tree:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 407, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-spotify:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 408, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-deviantart:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 409, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-soundcloud:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 410, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-database:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 411, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-file-pdf-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 412, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-file-word-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 413, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-file-excel-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 414, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-file-powerpoint-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 415, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-file-photo-o:before,
 .fa-file-picture-o:before,
 .fa-file-image-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 416, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-file-zip-o:before,
 .fa-file-archive-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 417, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-file-sound-o:before,
 .fa-file-audio-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 418, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-file-movie-o:before,
 .fa-file-video-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 419, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-file-code-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 420, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-vine:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 421, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-codepen:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 422, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-jsfiddle:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 423, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-life-bouy:before,
@@ -2047,1073 +2525,1329 @@
 .fa-life-saver:before,
 .fa-support:before,
 .fa-life-ring:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 424, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-circle-o-notch:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 425, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-ra:before,
 .fa-resistance:before,
 .fa-rebel:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 426, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-ge:before,
 .fa-empire:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 427, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-git-square:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 428, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-git:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 429, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-y-combinator-square:before,
 .fa-yc-square:before,
 .fa-hacker-news:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 430, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-tencent-weibo:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 431, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-qq:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 432, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-wechat:before,
 .fa-weixin:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 433, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-send:before,
 .fa-paper-plane:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 434, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-send-o:before,
 .fa-paper-plane-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 435, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-history:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 436, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-circle-thin:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 437, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-header:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 438, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-paragraph:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 439, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-sliders:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 440, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-share-alt:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 441, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-share-alt-square:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 442, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-bomb:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 443, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-soccer-ball-o:before,
 .fa-futbol-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 444, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-tty:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 445, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-binoculars:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 446, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-plug:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 447, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-slideshare:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 448, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-twitch:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 449, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-yelp:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 450, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-newspaper-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 451, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-wifi:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 452, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-calculator:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 453, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-paypal:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 454, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-google-wallet:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 455, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-cc-visa:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 456, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-cc-mastercard:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 457, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-cc-discover:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 458, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-cc-amex:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 459, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-cc-paypal:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 460, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-cc-stripe:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 461, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-bell-slash:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 462, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-bell-slash-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 463, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-trash:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 464, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-copyright:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 465, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-at:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 466, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-eyedropper:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 467, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-paint-brush:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 468, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-birthday-cake:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 469, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-area-chart:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 470, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-pie-chart:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 471, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-line-chart:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 472, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-lastfm:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 473, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-lastfm-square:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 474, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-toggle-off:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 475, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-toggle-on:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 476, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-bicycle:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 477, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-bus:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 478, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-ioxhost:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 479, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-angellist:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 480, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-cc:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 481, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-shekel:before,
 .fa-sheqel:before,
 .fa-ils:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 482, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-meanpath:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 483, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-buysellads:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 484, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-connectdevelop:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 485, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-dashcube:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 486, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-forumbee:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 487, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-leanpub:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 488, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-sellsy:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 489, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-shirtsinbulk:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 490, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-simplybuilt:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 491, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-skyatlas:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 492, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-cart-plus:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 493, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-cart-arrow-down:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 494, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-diamond:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 495, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-ship:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 496, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-user-secret:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 497, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-motorcycle:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 498, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-street-view:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 499, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-heartbeat:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 500, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-venus:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 501, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-mars:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 502, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-mercury:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 503, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-intersex:before,
 .fa-transgender:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 504, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-transgender-alt:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 505, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-venus-double:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 506, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-mars-double:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 507, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-venus-mars:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 508, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-mars-stroke:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 509, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-mars-stroke-v:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 510, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-mars-stroke-h:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 511, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-neuter:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 512, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-genderless:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 513, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-facebook-official:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 514, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-pinterest-p:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 515, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-whatsapp:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 516, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-server:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 517, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-user-plus:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 518, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-user-times:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 519, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-hotel:before,
 .fa-bed:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 520, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-viacoin:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 521, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-train:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 522, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-subway:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 523, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-medium:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 524, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-yc:before,
 .fa-y-combinator:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 525, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-optin-monster:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 526, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-opencart:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 527, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-expeditedssl:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 528, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-battery-4:before,
 .fa-battery:before,
 .fa-battery-full:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 529, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-battery-3:before,
 .fa-battery-three-quarters:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 530, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-battery-2:before,
 .fa-battery-half:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 531, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-battery-1:before,
 .fa-battery-quarter:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 532, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-battery-0:before,
 .fa-battery-empty:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 533, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-mouse-pointer:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 534, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-i-cursor:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 535, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-object-group:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 536, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-object-ungroup:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 537, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-sticky-note:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 538, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-sticky-note-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 539, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-cc-jcb:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 540, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-cc-diners-club:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 541, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-clone:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 542, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-balance-scale:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 543, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-hourglass-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 544, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-hourglass-1:before,
 .fa-hourglass-start:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 545, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-hourglass-2:before,
 .fa-hourglass-half:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 546, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-hourglass-3:before,
 .fa-hourglass-end:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 547, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-hourglass:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 548, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-hand-grab-o:before,
 .fa-hand-rock-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 549, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-hand-stop-o:before,
 .fa-hand-paper-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 550, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-hand-scissors-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 551, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-hand-lizard-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 552, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-hand-spock-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 553, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-hand-pointer-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 554, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-hand-peace-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 555, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-trademark:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 556, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-registered:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 557, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-creative-commons:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 558, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-gg:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 559, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-gg-circle:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 560, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-tripadvisor:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 561, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-odnoklassniki:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 562, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-odnoklassniki-square:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 563, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-get-pocket:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 564, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-wikipedia-w:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 565, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-safari:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 566, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-chrome:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 567, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-firefox:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 568, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-opera:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 569, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-internet-explorer:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 570, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-tv:before,
 .fa-television:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 571, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-contao:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 572, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-500px:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 573, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-amazon:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 574, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-calendar-plus-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 575, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-calendar-minus-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 576, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-calendar-times-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 577, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-calendar-check-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 578, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-industry:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 579, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-map-pin:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 580, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-map-signs:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 581, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-map-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 582, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-map:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 583, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-commenting:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 584, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-commenting-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 585, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-houzz:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 586, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-vimeo:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 587, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-black-tie:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 588, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-fonticons:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 589, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-reddit-alien:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 590, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-edge:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 591, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-credit-card-alt:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 592, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-codiepie:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 593, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-modx:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 594, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-fort-awesome:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 595, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-usb:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 596, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-product-hunt:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 597, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-mixcloud:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 598, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-scribd:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 599, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-pause-circle:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 600, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-pause-circle-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 601, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-stop-circle:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 602, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-stop-circle-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 603, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-shopping-bag:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 604, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-shopping-basket:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 605, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-hashtag:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 606, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-bluetooth:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 607, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-bluetooth-b:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 608, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-percent:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 609, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-gitlab:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 610, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-wpbeginner:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 611, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-wpforms:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 612, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-envira:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 613, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-universal-access:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 614, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-wheelchair-alt:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 615, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-question-circle-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 616, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-blind:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 617, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-audio-description:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 618, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-volume-control-phone:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 619, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-braille:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 620, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-assistive-listening-systems:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 621, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-asl-interpreting:before,
 .fa-american-sign-language-interpreting:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 622, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-deafness:before,
 .fa-hard-of-hearing:before,
 .fa-deaf:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 623, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-glide:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 624, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-glide-g:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 625, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-signing:before,
 .fa-sign-language:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 626, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-low-vision:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 627, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-viadeo:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 628, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-viadeo-square:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 629, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-snapchat:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 630, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-snapchat-ghost:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 631, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-snapchat-square:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 632, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-pied-piper:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 633, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-first-order:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 634, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-yoast:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 635, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-themeisle:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 636, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-google-plus-circle:before,
 .fa-google-plus-official:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 637, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-fa:before,
 .fa-font-awesome:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 638, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-handshake-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 639, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-envelope-open:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 640, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-envelope-open-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 641, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-linode:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 642, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-address-book:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 643, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-address-book-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 644, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-vcard:before,
 .fa-address-card:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 645, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-vcard-o:before,
 .fa-address-card-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 646, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-user-circle:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 647, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-user-circle-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 648, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-user-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 649, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-id-badge:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 650, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-drivers-license:before,
 .fa-id-card:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 651, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-drivers-license-o:before,
 .fa-id-card-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 652, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-quora:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 653, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-free-code-camp:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 654, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-telegram:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 655, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-thermometer-4:before,
 .fa-thermometer:before,
 .fa-thermometer-full:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 656, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-thermometer-3:before,
 .fa-thermometer-three-quarters:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 657, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-thermometer-2:before,
 .fa-thermometer-half:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 658, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-thermometer-1:before,
 .fa-thermometer-quarter:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 659, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-thermometer-0:before,
 .fa-thermometer-empty:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 660, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-shower:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 661, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-bathtub:before,
 .fa-s15:before,
 .fa-bath:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 662, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-podcast:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 663, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-window-maximize:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 664, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-window-minimize:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 665, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-window-restore:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 666, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-times-rectangle:before,
 .fa-window-close:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 667, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-times-rectangle-o:before,
 .fa-window-close-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 668, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-bandcamp:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 669, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-grav:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 670, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-etsy:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 671, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-imdb:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 672, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-ravelry:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 673, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-eercast:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 674, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-microchip:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 675, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-snowflake-o:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 676, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-superpowers:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 677, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-wpexplorer:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 678, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_icons.scss */
 .fa-meetup:before {
-  content: ""; }
+  content: "";
+}
 
 /* line 4, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_screen-reader.scss */
 .sr-only {
@@ -3124,16 +3858,19 @@
   margin: -1px;
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
-  border: 0; }
+  border: 0;
+}
 
 /* line 51, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_mixins.scss */
-.sr-only-focusable:active, .sr-only-focusable:focus {
+.sr-only-focusable:active,
+.sr-only-focusable:focus {
   position: static;
   width: auto;
   height: auto;
   margin: 0;
   overflow: visible;
-  clip: auto; }
+  clip: auto;
+}
 
 /****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************END FONTAWESOME******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
@@ -3154,7 +3891,8 @@ html {
   -ms-text-size-adjust: 100%;
   /* 3 */
   -webkit-text-size-adjust: 100%;
-  /* 3 */ }
+  /* 3 */
+}
 
 /* Sections
    ========================================================================== */
@@ -3163,7 +3901,8 @@ html {
  */
 /* line 27, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_normalize.scss */
 body {
-  margin: 0; }
+  margin: 0;
+}
 
 /**
  * Add the correct display in IE 9-.
@@ -3175,7 +3914,8 @@ footer,
 header,
 nav,
 section {
-  display: block; }
+  display: block;
+}
 
 /**
  * Correct the font size and margin on `h1` elements within `section` and
@@ -3184,7 +3924,8 @@ section {
 /* line 49, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_normalize.scss */
 h1 {
   font-size: 2em;
-  margin: 0.67em 0; }
+  margin: 0.67em 0;
+}
 
 /* Grouping content
    ========================================================================== */
@@ -3197,14 +3938,16 @@ figcaption,
 figure,
 main {
   /* 1 */
-  display: block; }
+  display: block;
+}
 
 /**
  * Add the correct margin in IE 8.
  */
 /* line 72, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_normalize.scss */
 figure {
-  margin: 1em 40px; }
+  margin: 1em 40px;
+}
 
 /**
  * 1. Add the correct box sizing in Firefox.
@@ -3217,7 +3960,8 @@ hr {
   height: 0;
   /* 1 */
   overflow: visible;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
@@ -3228,7 +3972,8 @@ pre {
   font-family: monospace, monospace;
   /* 1 */
   font-size: 1em;
-  /* 2 */ }
+  /* 2 */
+}
 
 /* Text-level semantics
    ========================================================================== */
@@ -3241,7 +3986,8 @@ a {
   background-color: transparent;
   /* 1 */
   -webkit-text-decoration-skip: objects;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
  * Remove the outline on focused links when they are also active or hovered
@@ -3250,7 +3996,8 @@ a {
 /* line 115, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_normalize.scss */
 a:active,
 a:hover {
-  outline-width: 0; }
+  outline-width: 0;
+}
 
 /**
  * 1. Remove the bottom border in Firefox 39-.
@@ -3263,7 +4010,8 @@ abbr[title] {
   text-decoration: underline;
   /* 2 */
   text-decoration: underline dotted;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
  * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
@@ -3271,7 +4019,8 @@ abbr[title] {
 /* line 135, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_normalize.scss */
 b,
 strong {
-  font-weight: inherit; }
+  font-weight: inherit;
+}
 
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
@@ -3279,7 +4028,8 @@ strong {
 /* line 144, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_normalize.scss */
 b,
 strong {
-  font-weight: bolder; }
+  font-weight: bolder;
+}
 
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
@@ -3292,14 +4042,16 @@ samp {
   font-family: monospace, monospace;
   /* 1 */
   font-size: 1em;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
  * Add the correct font style in Android 4.3-.
  */
 /* line 165, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_normalize.scss */
 dfn {
-  font-style: italic; }
+  font-style: italic;
+}
 
 /**
  * Add the correct background and color in IE 9-.
@@ -3307,14 +4059,16 @@ dfn {
 /* line 173, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_normalize.scss */
 mark {
   background-color: #ff0;
-  color: #000; }
+  color: #000;
+}
 
 /**
  * Add the correct font size in all browsers.
  */
 /* line 182, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_normalize.scss */
 small {
-  font-size: 80%; }
+  font-size: 80%;
+}
 
 /**
  * Prevent `sub` and `sup` elements from affecting the line height in
@@ -3326,15 +4080,18 @@ sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+}
 
 /* line 199, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_normalize.scss */
 sub {
-  bottom: -0.25em; }
+  bottom: -0.25em;
+}
 
 /* line 203, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_normalize.scss */
 sup {
-  top: -0.5em; }
+  top: -0.5em;
+}
 
 /* Embedded content
    ========================================================================== */
@@ -3344,7 +4101,8 @@ sup {
 /* line 214, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_normalize.scss */
 audio,
 video {
-  display: inline-block; }
+  display: inline-block;
+}
 
 /**
  * Add the correct display in iOS 4-7.
@@ -3352,21 +4110,24 @@ video {
 /* line 223, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_normalize.scss */
 audio:not([controls]) {
   display: none;
-  height: 0; }
+  height: 0;
+}
 
 /**
  * Remove the border on images inside links in IE 10-.
  */
 /* line 232, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_normalize.scss */
 img {
-  border-style: none; }
+  border-style: none;
+}
 
 /**
  * Hide the overflow in IE.
  */
 /* line 240, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_normalize.scss */
 svg:not(:root) {
-  overflow: hidden; }
+  overflow: hidden;
+}
 
 /* Forms
    ========================================================================== */
@@ -3387,7 +4148,8 @@ textarea {
   line-height: 1.15;
   /* 1 */
   margin: 0;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
  * Show the overflow in IE.
@@ -3397,7 +4159,8 @@ textarea {
 button,
 input {
   /* 1 */
-  overflow: visible; }
+  overflow: visible;
+}
 
 /**
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
@@ -3407,7 +4170,8 @@ input {
 button,
 select {
   /* 1 */
-  text-transform: none; }
+  text-transform: none;
+}
 
 /**
  * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
@@ -3420,7 +4184,8 @@ html [type="button"],
 [type="reset"],
 [type="submit"] {
   -webkit-appearance: button;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
  * Remove the inner border and padding in Firefox.
@@ -3431,7 +4196,8 @@ button::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
 [type="submit"]::-moz-focus-inner {
   border-style: none;
-  padding: 0; }
+  padding: 0;
+}
 
 /**
  * Restore the focus styles unset by the previous rule.
@@ -3441,7 +4207,8 @@ button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
 [type="submit"]:-moz-focusring {
-  outline: 1px dotted ButtonText; }
+  outline: 1px dotted ButtonText;
+}
 
 /**
  * Change the border, margin, and padding in all browsers (opinionated).
@@ -3450,7 +4217,8 @@ button:-moz-focusring,
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em; }
+  padding: 0.35em 0.625em 0.75em;
+}
 
 /**
  * 1. Correct the text wrapping in Edge and IE.
@@ -3471,7 +4239,8 @@ legend {
   padding: 0;
   /* 3 */
   white-space: normal;
-  /* 1 */ }
+  /* 1 */
+}
 
 /**
  * 1. Add the correct display in IE 9-.
@@ -3482,14 +4251,16 @@ progress {
   display: inline-block;
   /* 1 */
   vertical-align: baseline;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
  * Remove the default vertical scrollbar in IE.
  */
 /* line 359, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_normalize.scss */
 textarea {
-  overflow: auto; }
+  overflow: auto;
+}
 
 /**
  * 1. Add the correct box sizing in IE 10-.
@@ -3501,7 +4272,8 @@ textarea {
   box-sizing: border-box;
   /* 1 */
   padding: 0;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
@@ -3509,7 +4281,8 @@ textarea {
 /* line 378, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_normalize.scss */
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
-  height: auto; }
+  height: auto;
+}
 
 /**
  * 1. Correct the odd appearance in Chrome and Safari.
@@ -3520,7 +4293,8 @@ textarea {
   -webkit-appearance: textfield;
   /* 1 */
   outline-offset: -2px;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
  * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
@@ -3528,7 +4302,8 @@ textarea {
 /* line 397, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_normalize.scss */
 [type="search"]::-webkit-search-cancel-button,
 [type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none; }
+  -webkit-appearance: none;
+}
 
 /**
  * 1. Correct the inability to style clickable types in iOS and Safari.
@@ -3539,7 +4314,8 @@ textarea {
   -webkit-appearance: button;
   /* 1 */
   font: inherit;
-  /* 2 */ }
+  /* 2 */
+}
 
 /* Interactive
    ========================================================================== */
@@ -3550,14 +4326,16 @@ textarea {
 /* line 420, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_normalize.scss */
 details,
 menu {
-  display: block; }
+  display: block;
+}
 
 /*
  * Add the correct display in all browsers.
  */
 /* line 429, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_normalize.scss */
 summary {
-  display: list-item; }
+  display: list-item;
+}
 
 /* Scripting
    ========================================================================== */
@@ -3566,14 +4344,16 @@ summary {
  */
 /* line 440, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_normalize.scss */
 canvas {
-  display: inline-block; }
+  display: inline-block;
+}
 
 /**
  * Add the correct display in IE.
  */
 /* line 448, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_normalize.scss */
 template {
-  display: none; }
+  display: none;
+}
 
 /* Hidden
    ========================================================================== */
@@ -3582,40 +4362,50 @@ template {
  */
 /* line 459, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_normalize.scss */
 [hidden] {
-  display: none; }
+  display: none;
+}
 
 /**************************************************************************************************************************************************************************************************************************************************************************************************END NORMALIZE********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
 /* Grid style; make sure parent containers have full height */
 /* line 4, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_grid.scss */
-*, *:after, *:before {
+*,
+*:after,
+*:before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 /* line 7, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_grid.scss */
-.clearfix:before, .clearfix:after {
+.clearfix:before,
+.clearfix:after {
   content: " ";
-  display: table; }
+  display: table;
+}
 
 /* line 8, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_grid.scss */
 .clearfix:after {
-  clear: both; }
+  clear: both;
+}
 
 /* line 10, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_grid.scss */
 a {
   color: #000;
   color: rgba(0, 0, 0, 0.5);
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 /* line 16, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_grid.scss */
 a:hover,
 a:active {
-  color: #fff; }
+  color: #fff;
+}
 
 /* line 21, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_grid.scss */
 .grid__left {
-  height: 100%; }
+  height: 100%;
+}
 
 /* To Navigation Style */
 /* line 26, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_grid.scss */
@@ -3625,13 +4415,15 @@ a:active {
   font-size: 0.69em;
   position: absolute;
   bottom: 0;
-  left: 0; }
+  left: 0;
+}
 
 /* line 35, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_grid.scss */
 .codrops-top a {
   letter-spacing: 1px;
   display: block;
-  padding: 0 1em 1em; }
+  padding: 0 1em 1em;
+}
 
 /* line 41, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_grid.scss */
 .codrops-icon:before {
@@ -3648,88 +4440,103 @@ a:active {
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
-  -webkit-font-smoothing: antialiased; }
+  -webkit-font-smoothing: antialiased;
+}
 
 /* line 57, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_grid.scss */
 .codrops-icon:hover:before {
-  border-color: #fff; }
+  border-color: #fff;
+}
 
 /* line 61, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_grid.scss */
 .codrops-icon-drop:before {
-  content: "\e001"; }
+  content: "\e001";
+}
 
 /* line 65, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_grid.scss */
 .codrops-icon-prev:before {
-  content: "\e004"; }
+  content: "\e004";
+}
 
 /* Demo Buttons Style */
 /* line 70, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_grid.scss */
 a.current-demo {
-  color: rgba(0, 0, 0, 0.3); }
+  color: rgba(0, 0, 0, 0.3);
+}
 
 /* line 73, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_grid.scss */
 .gt-grid {
   width: 100%;
   height: 100%;
   position: relative;
-  -webkit-backface-visibility: hidden; }
+  -webkit-backface-visibility: hidden;
+}
 
 /* line 80, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_grid.scss */
-.gt-grid > div {
+.gt-grid>div {
   width: 20%;
   height: 20%;
   float: left;
   overflow: hidden;
   position: relative;
   opacity: 1;
-  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.05); }
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.05);
+}
 
 /* line 89, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_grid.scss */
 .img_a img {
   width: 100%;
-  height: auto; }
+  height: auto;
+}
 
 /* line 93, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_grid.scss */
-.gt-grid > div:hover img {
+.gt-grid>div:hover img {
   -webkit-filter: brightness(80%);
-  filter: brightness(80%); }
+  filter: brightness(80%);
+}
 
 /* line 98, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_grid.scss */
-.gt-grid > div.gt-hidden {
+.gt-grid>div.gt-hidden {
   opacity: 0;
-  visibility: hidden; }
+  visibility: hidden;
+}
 
 /* line 103, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_grid.scss */
-.gt-grid > div.gt-visible {
-  z-index: 999; }
+.gt-grid>div.gt-visible {
+  z-index: 999;
+}
 
 /* Some content styles */
 /* line 109, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_grid.scss */
-.gt-grid > div h1,
-.gt-grid > div h3 {
+.gt-grid>div h1,
+.gt-grid>div h3 {
   position: absolute;
   bottom: 0;
   left: 0;
   margin: 0;
-  cursor: default; }
+  cursor: default;
+}
 
 /* line 118, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_grid.scss */
-.gt-grid > div h3 {
+.gt-grid>div h3 {
   font-size: 1.05em;
   padding: 1em;
   font-weight: 700;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+}
 
 /* The little grid to control the number of items */
 /* line 126, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_grid.scss */
 .gt-grid-control {
   z-index: 1000;
   position: relative;
-  top: -40px; }
+  top: -40px;
+}
 
 /* line 131, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_grid.scss */
 .gt-grid-control i {
-  cursor: pointer; }
+  cursor: pointer;
+}
 
 /* line 134, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_grid.scss */
 .gt-grid-select {
@@ -3744,59 +4551,69 @@ a.current-demo {
   transition: all 0.2s;
   border: 1px solid rgba(0, 0, 0, 0.3);
   z-index: 9;
-  background: #029BBB; }
+  background: #029BBB;
+}
 
 /* line 149, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_grid.scss */
-.gt-grid-select > div {
+.gt-grid-select>div {
   width: 20%;
   height: 20%;
   background: rgba(0, 0, 0, 0.3);
   float: left;
-  border: 1px solid rgba(0, 0, 0, 0.3); }
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
 
 /* line 157, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_grid.scss */
 .no-touch .gt-grid-control:hover .gt-grid-icon,
 .gt-grid-control.gt-grid-control-open .gt-grid-icon {
-  opacity: 0; }
+  opacity: 0;
+}
 
 /* line 162, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_grid.scss */
 .no-touch .gt-grid-control i:hover .gt-grid-select {
   visibility: visible;
-  opacity: 1; }
+  opacity: 1;
+}
 
 /* line 167, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_grid.scss */
 .gt-grid-select .gt-grid-selected {
-  background: rgba(0, 0, 0, 0.4); }
+  background: rgba(0, 0, 0, 0.4);
+}
 
 /* line 171, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_grid.scss */
 .gt-grid-select .gt-grid-hover {
-  box-shadow: inset 0 0 0 10px rgba(255, 255, 255, 0.1); }
+  box-shadow: inset 0 0 0 10px rgba(255, 255, 255, 0.1);
+}
 
 /* Demo 3: Transition and delays */
 /* line 176, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_grid.scss */
-.demo-3 .gt-grid > div {
+.demo-3 .gt-grid>div {
   background-color: #85F9D6;
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
-  transform: scale(1); }
+  transform: scale(1);
+}
 
 /* line 183, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_grid.scss */
-.demo-3 .gt-grid > div.gt-hidden {
+.demo-3 .gt-grid>div.gt-hidden {
   -webkit-transform: scale(0.6) rotate(45deg);
   -moz-transform: scale(0.6);
-  transform: scale(0.6); }
+  transform: scale(0.6);
+}
 
 /**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 @font-face {
   font-family: "RussianBold";
-  src: url("../fonts/RussianBold.ttf") format("truetype"); }
+  src: url("../fonts/RussianBold.ttf") format("truetype");
+}
 
 @font-face {
   font-family: 'FontAwesome';
   src: url("../fonts/fontawesome-webfont.eot?v=4.7.0");
   src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("../fonts/fontawesome-webfont.woff?v=4.7.0") format("woff"), url("../fonts/fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal;
+}
 
 /* line 2, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_move.scss */
 .moved .lineSvg {
@@ -3804,46 +4621,64 @@ a.current-demo {
   stroke-dashoffset: 0;
   animation: dash 1.5s linear forwards;
   stroke: #85F9D6;
-  fill: none; }
+  fill: none;
+}
 
 /* line 9, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_move.scss */
 .moved .dot {
   stroke-opacity: 0;
   animation: dashTO 0.8s linear forwards;
   stroke-width: 0px;
-  fill: #85F9D6; }
+  fill: #85F9D6;
+}
 
 /* line 15, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_move.scss */
 .moved .li-svg {
-  display: block !important; }
+  display: block !important;
+}
 
 @-webkit-keyframes dash {
   from {
-    stroke-dashoffset: 550; }
+    stroke-dashoffset: 550;
+  }
+
   to {
-    stroke-dashoffset: 0; } }
+    stroke-dashoffset: 0;
+  }
+}
 
 @-webkit-keyframes dashTO {
   0% {
     stroke-opacity: 0;
-    fill: transparent; }
+    fill: transparent;
+  }
+
   25% {
     stroke-opacity: 0;
-    fill: transparent; }
+    fill: transparent;
+  }
+
   50% {
     stroke-opacity: 0;
-    fill: transparent; }
+    fill: transparent;
+  }
+
   75% {
     stroke-opacity: 0;
-    fill: transparent; }
+    fill: transparent;
+  }
+
   100% {
-    stroke-opacity: 1; } }
+    stroke-opacity: 1;
+  }
+}
 
 /* line 20, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
 .container_MAIN {
   position: relative;
   margin: 0 auto;
-  width: 1870px; }
+  width: 1870px;
+}
 
 /* line 26, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
 .bg_IMG__wrap {
@@ -3852,19 +4687,23 @@ a.current-demo {
   left: 0;
   top: 0;
   height: 100%;
-  text-align: center; }
-  /* line 33, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
-  .bg_IMG__wrap .bgIMg {
-    margin: 0 auto;
-    max-height: 920px;
-    width: 490px;
-    position: relative;
-    bottom: -30px; }
+  text-align: center;
+}
+
+/* line 33, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
+.bg_IMG__wrap .bgIMg {
+  margin: 0 auto;
+  max-height: 920px;
+  width: 490px;
+  position: relative;
+  bottom: -30px;
+}
 
 /* line 42, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
 body {
   background: #029BBB;
-  padding: 0px 15px 0 15px; }
+  padding: 0px 15px 0 15px;
+}
 
 /* line 53, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
 .left_side,
@@ -3873,68 +4712,85 @@ body {
   width: 50%;
   position: relative;
   float: left;
-  padding: 15px 0 0 0; }
+  padding: 15px 0 0 0;
+}
 
 /* line 62, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
 .nav {
   margin: 0 0 9px 0;
   position: relative;
-  z-index: 9; }
+  z-index: 9;
+}
 
 /* line 68, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
 .nav_RIGHT {
   margin: 0 auto 9px;
   text-align: center;
   padding: 0 0 0 14%;
-  float: right; }
-  /* line 73, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
-  .nav_RIGHT .nav--li {
-    padding: 0 0 0 25px; }
+  float: right;
+}
+
+/* line 73, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
+.nav_RIGHT .nav--li {
+  padding: 0 0 0 25px;
+}
 
 /* line 79, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
 .nav_LEFT .nav--li {
-  padding: 0 25px 0 0px; }
+  padding: 0 25px 0 0px;
+}
 
 /* line 84, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
 .nav--li {
   list-style: none;
   display: inline-block;
-  position: relative; }
-  /* line 88, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
-  .nav--li .li-svg {
-    display: none; }
+  position: relative;
+}
+
+/* line 88, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
+.nav--li .li-svg {
+  display: none;
+}
 
 /* line 93, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
 .li-svg {
-  position: absolute; }
+  position: absolute;
+}
 
 /* line 97, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
 .nav_LEFT--li-3-svg {
-  left: -80px; }
+  left: -80px;
+}
 
 /* line 101, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
 .nav_LEFT--li-4-svg {
-  left: -170px; }
+  left: -170px;
+}
 
 /* line 105, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
 .nav_LEFT--li-5-svg {
-  left: -230px; }
+  left: -230px;
+}
 
 /* line 109, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
 .nav_RIGHT--li-3-svg {
-  left: -110px; }
+  left: -110px;
+}
 
 /* line 113, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
 .nav_RIGHT--li-4-svg {
-  left: -230px; }
+  left: -230px;
+}
 
 /* line 117, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
 .nav_RIGHT--li-5-svg {
-  left: -400px; }
+  left: -400px;
+}
 
 /* line 122, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
 .active .nav--item {
-  color: #85F9D6; }
+  color: #85F9D6;
+}
 
 /* line 127, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
 .nav--item {
@@ -3942,73 +4798,96 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 19px;
-  color: #fff; }
-  /* line 133, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
-  .nav--item:hover {
-    color: #85F9D6;
-    transition: 0.7s; }
+  color: #fff;
+}
+
+/* line 133, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
+.nav--item:hover {
+  color: #85F9D6;
+  transition: 0.7s;
+}
 
 /* line 139, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
 .article__LEFT {
-  width: 600px; }
+  width: 600px;
+}
 
 /* line 143, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
 .article__RIGHT {
   margin: 0 0px 0 0;
   float: right;
-  width: 700px; }
+  width: 700px;
+}
 
 /* line 149, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
 .wrap__RIGHT {
   background: #145478;
   border-radius: 15px 15px 0 0;
-  position: relative; }
-  /* line 153, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
-  .wrap__RIGHT .wrapper--loading {
-    color: #fff;
-    display: flex;
-    position: absolute;
-    justify-content: center;
-    width: 100%;
-    align-items: center;
-    height: 100%; }
-    /* line 161, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
-    .wrap__RIGHT .wrapper--loading i.fa.fa-refresh.fa-spin.fa-3x.fa-fw {
-      display: block; }
-  /* line 165, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
-  .wrap__RIGHT .article__body__RIGHT {
-    height: 600px;
-    padding: 18px 20px;
-    color: #fff; }
-    /* line 169, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
-    .wrap__RIGHT .article__body__RIGHT #ee {
-      height: 550px; }
+  position: relative;
+}
+
+/* line 153, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
+.wrap__RIGHT .wrapper--loading {
+  color: #fff;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  height: 100%;
+}
+
+/* line 161, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
+.wrap__RIGHT .wrapper--loading i.fa.fa-refresh.fa-spin.fa-3x.fa-fw {
+  display: block;
+}
+
+/* line 165, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
+.wrap__RIGHT .article__body__RIGHT {
+  height: 600px;
+  padding: 18px 20px;
+  color: #fff;
+}
+
+/* line 169, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
+.wrap__RIGHT .article__body__RIGHT #ee {
+  height: 550px;
+}
 
 /* line 175, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
 .wrap__LEFT {
   background: #145478;
   border-radius: 15px;
-  position: relative; }
-  /* line 179, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
-  .wrap__LEFT .wrapper--loading {
-    color: #fff;
-    display: flex;
-    position: absolute;
-    justify-content: center;
-    width: 100%;
-    align-items: center;
-    height: 100%; }
-    /* line 187, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
-    .wrap__LEFT .wrapper--loading i.fa.fa-refresh.fa-spin.fa-3x.fa-fw {
-      display: block; }
-  /* line 191, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
-  .wrap__LEFT .article__body__LEFT {
-    height: 300px;
-    padding: 10px 20px;
-    color: #fff; }
-    /* line 195, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
-    .wrap__LEFT .article__body__LEFT #ee {
-      height: 280px; }
+  position: relative;
+}
+
+/* line 179, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
+.wrap__LEFT .wrapper--loading {
+  color: #fff;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  height: 100%;
+}
+
+/* line 187, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
+.wrap__LEFT .wrapper--loading i.fa.fa-refresh.fa-spin.fa-3x.fa-fw {
+  display: block;
+}
+
+/* line 191, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
+.wrap__LEFT .article__body__LEFT {
+  height: 300px;
+  padding: 10px 20px;
+  color: #fff;
+}
+
+/* line 195, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
+.wrap__LEFT .article__body__LEFT #ee {
+  height: 280px;
+}
 
 /* line 201, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
 .portfolio__LEFT {
@@ -4017,31 +4896,40 @@ body {
   width: 580px;
   height: 500px;
   margin: 50px 0 0 0;
-  position: relative; }
+  position: relative;
+}
 
 /* line 210, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
 .top__header {
-  width: 100%; }
-  /* line 212, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
-  .top__header h3 {
-    margin: 10px 15px 10px 0;
-    float: left;
-    padding: 0px;
-    color: #fff; }
-    /* line 217, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
-    .top__header h3 .fa-th {
-      margin: 0 0 0 23px; }
-    /* line 220, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
-    .top__header h3 i {
-      margin: 0 0 0 5px;
-      color: #fff; }
+  width: 100%;
+}
+
+/* line 212, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
+.top__header h3 {
+  margin: 10px 15px 10px 0;
+  float: left;
+  padding: 0px;
+  color: #fff;
+}
+
+/* line 217, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
+.top__header h3 .fa-th {
+  margin: 0 0 0 23px;
+}
+
+/* line 220, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
+.top__header h3 i {
+  margin: 0 0 0 5px;
+  color: #fff;
+}
 
 /* line 227, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
 .img_a {
   display: block;
   z-index: 9;
   position: relative;
-  height: 100%; }
+  height: 100%;
+}
 
 /* line 234, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
 .info__header__h3 {
@@ -4054,21 +4942,24 @@ body {
   border-radius: 15px 15px 0 0;
   position: relative;
   font-size: 15px;
-  text-transform: uppercase; }
-  /* line 245, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
-  .info__header__h3:after {
-    display: block;
-    content: "";
-    width: 65px;
-    height: 30px;
-    background: #145478;
-    position: absolute;
-    right: -41px;
-    top: 23px;
-    -webkit-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(45deg);
-    z-index: -1; }
+  text-transform: uppercase;
+}
+
+/* line 245, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
+.info__header__h3:after {
+  display: block;
+  content: "";
+  width: 65px;
+  height: 30px;
+  background: #145478;
+  position: absolute;
+  right: -41px;
+  top: 23px;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(45deg);
+  z-index: -1;
+}
 
 /* line 261, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
 .info__header {
@@ -4079,7 +4970,8 @@ body {
   width: 270px;
   overflow: hidden;
   clear: both;
-  top: 4px; }
+  top: 4px;
+}
 
 /* line 272, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
 .footer__wrap {
@@ -4087,37 +4979,50 @@ body {
   float: left;
   width: 50%;
   text-align: right;
-  padding: 30px 0; }
-  /* line 278, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
-  .footer__wrap .foo_social {
-    width: 310px;
-    display: inline-block;
-    margin: 0 40px 0 0; }
-    /* line 282, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
-    .footer__wrap .foo_social .foo_hrefs {
-      color: #fff;
-      font-size: 30px;
-      margin: 0 10px; }
-      /* line 286, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
-      .footer__wrap .foo_social .foo_hrefs:hover {
-        color: #85F9D6; }
+  padding: 30px 0;
+}
+
+/* line 278, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
+.footer__wrap .foo_social {
+  width: 310px;
+  display: inline-block;
+  margin: 0 40px 0 0;
+}
+
+/* line 282, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
+.footer__wrap .foo_social .foo_hrefs {
+  color: #fff;
+  font-size: 30px;
+  margin: 0 10px;
+}
+
+/* line 286, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
+.footer__wrap .foo_social .foo_hrefs:hover {
+  color: #85F9D6;
+}
 
 /* line 294, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
 .article__body .foo_hrefs {
   color: #fff;
   font-size: 18px;
-  margin: 0 10px 0 0; }
-  /* line 298, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
-  .article__body .foo_hrefs:hover {
-    color: #85F9D6; }
+  margin: 0 10px 0 0;
+}
+
+/* line 298, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
+.article__body .foo_hrefs:hover {
+  color: #85F9D6;
+}
 
 /* line 304, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
 .block__work {
   margin: 0 0 20px 0;
-  display: block; }
-  /* line 307, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
-  .block__work h4 {
-    margin: 10px 0; }
+  display: block;
+}
+
+/* line 307, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
+.block__work h4 {
+  margin: 10px 0;
+}
 
 /* line 313, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
 .tec__wrap {
@@ -4127,40 +5032,51 @@ body {
   justify-content: center;
   align-items: center;
   height: 100px;
-  flex-direction: row; }
-  /* line 321, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
-  .tec__wrap .tec__wrap_left {
-    width: 10%;
-    position: relative;
-    margin: 0 3% 0 0; }
-    /* line 324, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
-    .tec__wrap .tec__wrap_left img {
-      width: 100%; }
-  /* line 329, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
-  .tec__wrap .tec__wrap_right {
-    width: 87%;
-    position: relative;
-    height: 25px;
-    display: block; }
-    /* line 334, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
-    .tec__wrap .tec__wrap_right .inner__tec {
-      border-radius: 5px;
-      background: #0C364E;
-      width: 100%;
-      display: inline-block;
-      position: relative; }
-      /* line 340, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
-      .tec__wrap .tec__wrap_right .inner__tec .loading__tec {
-        height: 25px;
-        color: #0C364E;
-        font-weight: bold;
-        font-size: 18px;
-        line-height: 26px;
-        text-align: center;
-        background: #85F9D6;
-        border-radius: 5px;
-        position: relative;
-        width: 0%;
-        transition: width 1s ease-out; }
+  flex-direction: row;
+}
+
+/* line 321, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
+.tec__wrap .tec__wrap_left {
+  width: 10%;
+  position: relative;
+  margin: 0 3% 0 0;
+}
+
+/* line 324, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
+.tec__wrap .tec__wrap_left img {
+  width: 100%;
+}
+
+/* line 329, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
+.tec__wrap .tec__wrap_right {
+  width: 87%;
+  position: relative;
+  height: 25px;
+  display: block;
+}
+
+/* line 334, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
+.tec__wrap .tec__wrap_right .inner__tec {
+  border-radius: 5px;
+  background: #0C364E;
+  width: 100%;
+  display: inline-block;
+  position: relative;
+}
+
+/* line 340, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/main.scss */
+.tec__wrap .tec__wrap_right .inner__tec .loading__tec {
+  height: 25px;
+  color: #0C364E;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  background: #85F9D6;
+  border-radius: 5px;
+  position: relative;
+  width: 0%;
+  transition: width 1s ease-out;
+}
 
 /*# sourceMappingURL=main.css.map */
