@@ -35,7 +35,7 @@ $(document).ready(function ($) {
         image: {
             tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
             titleSrc: function (item) {
-                return item.el.attr('title') + '<small>by Иван Оныщенко</small>';
+                return item.el.attr('title') + '<small>by Ivan Onyshchenko</small>';
             }
         }
     });
@@ -79,10 +79,10 @@ $(document).ready(function ($) {
         });
     }
     $(function () {
-            //Раскомментируйте строку ниже, чтобы включить автоматическую прокрутку карусели
-            auto_right('.carousel');
-        })
-        //    Автоматическая прокрутка
+        //Раскомментируйте строку ниже, чтобы включить автоматическую прокрутку карусели
+        auto_right('.carousel');
+    })
+    //    Автоматическая прокрутка
     function auto_right(carusel) {
         setInterval(function () {
             if (!$(carusel).is('.hover'))
@@ -91,162 +91,129 @@ $(document).ready(function ($) {
     }
     // Навели курсор на карусель
     $(document).on('mouseenter', '.carousel', function () {
-            $(this).addClass('hover')
-        })
-        //Убрали курсор с карусели
+        $(this).addClass('hover')
+    })
+    //Убрали курсор с карусели
     $(document).on('mouseleave', '.carousel', function () {
-            $(this).removeClass('hover')
-        })
-        //END CAROUSEL
+        $(this).removeClass('hover')
+    })
+    //END CAROUSEL
 
 
 
 
 
-    // ajax
-    //Check for hash value in URL
-    var hash = window.location.hash.substr(1);
-    var href = $('.nav li a').each(function () {
-        var href = $(this).attr('href');
-        if (hash == href.substr(0, href.length - 5)) {
-            var toLoad = hash + '.html #ee';
-            $('#ee').load(toLoad)
-        }
-    });
+// ================= AJAX + HASH NAV =================
+$(function () {
 
-    $('.left_side .nav_LEFT li a').on('click', function (event) {
-        event.preventDefault();
+    function initLeftPlugins() {
+        $(".article__body__LEFT #ee").mCustomScrollbar({
+            theme: "rounded-dots"
+        });
 
-        //работа с пунктами меню
-        if ($(this).parent().hasClass("active")) {
-            return false;
-        } else {
-            $('.left_side .nav_LEFT li').removeClass("active moved");
-            $(this).parent().addClass("active moved");
-        }
-
-        //Меняем заголовок статьи
-        var innerText = $(this).text();
-        $(".left_side .info__header__h3").text(innerText);
-
-        //обновление плагина к загруженному аяксом контенту в статье
-        setInterval(function () {
-            //обновление скрола в левой секции при аякс вызове
-            $(".article__body__LEFT #ee").mCustomScrollbar({
-                theme: "rounded-dots"
-            });
-
-
-            //Обновление мплагина при загрузке страницы фото
-            $('.popup-galleryPhoto>div').magnificPopup({
-                delegate: 'a',
-                type: 'image',
-                tLoading: 'Loading image #%curr%...',
-                mainClass: 'mfp-img-mobile',
-                gallery: {
-                    enabled: true,
-                    navigateByImgClick: true,
-                    preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
-                },
-                image: {
-                    tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
-                    titleSrc: function (item) {
-                        return item.el.attr('title') + '<small>by Иван Оныщенко</small>';
-                    }
+        $('.popup-galleryPhoto>div').magnificPopup({
+            delegate: 'a',
+            type: 'image',
+            gallery: {
+                enabled: true
+            },
+            image: {
+                titleSrc: function (item) {
+                    return item.el.attr('title') + '<small>by Иван Оныщенко</small>';
                 }
+            }
+        });
+    }
+
+    function initRightPlugins() {
+        $(".article__body__RIGHT #ee").mCustomScrollbar({
+            theme: "rounded-dots"
+        });
+    }
+
+    function loadByHash() {
+        var hash = window.location.hash.replace('#', '');
+        if (!hash) return;
+
+        var toLoad = hash + '.html .article__body-LEFT';
+        $('.article__body__LEFT').load(toLoad, function () {
+            initLeftPlugins();
+        });
+    }
+
+    loadByHash();
+
+    // -------- LEFT MENU --------
+    $('.left_side .nav_LEFT li a').on('click', function (e) {
+        e.preventDefault();
+
+        var $link = $(this);
+        var href = $link.attr('href');
+        var hash = href.replace('.html', '');
+
+        if ($link.parent().hasClass('active')) return;
+
+        $('.nav_LEFT li').removeClass('active moved');
+        $link.parent().addClass('active moved');
+
+        $(".left_side .info__header__h3").text($link.text());
+
+        $('.wrapper--loading .fa-refresh').remove();
+        $('.wrap__LEFT .wrapper--loading')
+            .append('<i class="fa fa-refresh fa-spin fa-3x fa-fw"></i>');
+
+        $('.article__body__LEFT').fadeOut(200, function () {
+            $('.article__body__LEFT').load(href + ' .article__body-LEFT', function () {
+                $('.article__body__LEFT').fadeIn(200);
+                $('.wrapper--loading .fa-refresh').fadeOut(200);
+                initLeftPlugins();
             });
+        });
 
-
-
-        }, 100);
-
-        var toLoad = $(this).attr('href') + ' .article__body-LEFT';
-        $('.article__body__LEFT').fadeOut('', loadContent);
-        $('.fa-refresh').remove();
-        $('.wrap__LEFT .wrapper--loading').append('<i class="fa fa-refresh fa-spin fa-3x fa-fw"></i>');
-        $('.fa-refresh').fadeIn('normal');
-        window.location.hash = $(this).attr('href').substr(0, $(this).attr('href').length - 5);
-
-        function loadContent() {
-            $('.article__body__LEFT').load(toLoad, 'normal', showNewContent());
-        }
-
-        function showNewContent() {
-            $('.article__body__LEFT').fadeIn('normal', hideLoader());
-
-        }
-
-        function hideLoader() {
-            $('.wrapper--loading .fa-refresh').fadeOut('normal');
-        }
-
-        return false;
-
+        window.location.hash = hash;
     });
 
+    // -------- RIGHT MENU --------
+    $('.right_side .nav_RIGHT li a').on('click', function (e) {
+        e.preventDefault();
 
+        var $link = $(this);
+        var href = $link.attr('href');
+        var hash = href.replace('.html', '');
 
+        if ($link.parent().hasClass('active')) return;
 
-    //правые пункты меню аякс загрузка
-    $('.right_side .nav_RIGHT li a').on('click', function (event) {
-        event.preventDefault();
+        $('.nav_RIGHT li').removeClass('active moved');
+        $link.parent().addClass('active moved');
 
-        //работа с пунктами меню работа с svg анимацией
-        if ($(this).parent().hasClass("active")) {
-            return false;
-        } else {
-            $('.right_side .nav_RIGHT li').removeClass("active moved");
-            $(this).parent().addClass("active moved");
-        }
+        $(".right_side .info__header__h3").text($link.text());
 
-        //Меняем заголовок статьи
-        var innerText = $(this).text();
-        $(".right_side .info__header__h3").text(innerText);
+        $('.wrapper--loading .fa-refresh').remove();
+        $('.wrap__RIGHT .wrapper--loading')
+            .append('<i class="fa fa-refresh fa-spin fa-3x fa-fw"></i>');
 
+        $('.article__body__RIGHT').fadeOut(200, function () {
+            $('.article__body__RIGHT').load(href + ' .article__body-RIGHT', function () {
+                $('.article__body__RIGHT').fadeIn(200);
+                $('.wrapper--loading .fa-refresh').fadeOut(200);
+                initRightPlugins();
 
-
-        //обновление плагина к загруженному аяксом контенту в статье
-        setInterval(function () {
-            $(".article__body__RIGHT #ee").mCustomScrollbar({
-                theme: "rounded-dots"
+                // tech stack animation
+                setTimeout(function () {
+                    $('.loading__tec').each(function () {
+                        var val = parseInt($(this).text(), 10);
+                        $(this).css('width', val + '0%');
+                    });
+                }, 500);
             });
-        }, 500);
+        });
 
-        var toLoad = $(this).attr('href') + ' .article__body-RIGHT';
-        $('.article__body__RIGHT').fadeOut('', loadContent);
-        $('.fa-refresh').remove();
-        $('.wrap__RIGHT .wrapper--loading').append('<i class="fa fa-refresh fa-spin fa-3x fa-fw"></i>');
-        $('.fa-refresh').fadeIn('normal');
-        window.location.hash = $(this).attr('href').substr(0, $(this).attr('href').length - 5);
-
-        function loadContent() {
-            $('.article__body__RIGHT').load(toLoad, 'normal', showNewContent());
-        }
-
-        function showNewContent() {
-            $('.article__body__RIGHT').fadeIn('normal', hideLoader());
-        }
-
-        function hideLoader() {
-            $('.wrapper--loading .fa-refresh').fadeOut('normal');
-
-        }
-
-        //анимация загрузки на странице technology stack
-        setTimeout(function () {
-            $(function () {
-                var w = 0;
-                $(".loading__tec").each(function () {
-                    var re = $(this).text();
-                    re = +re;
-                    $(this).css("width", re + "0%");
-                });
-            }());
-        }, 1000);
-        return false;
+        window.location.hash = hash;
     });
 
-    // END ajax
+});
+// ================= END AJAX =================
+
 
 
 

@@ -1,22 +1,10 @@
-@import "variables";
 @import "mixins";
-@import "carousel";
-@import "path";
-@import "core";
-@import "larger";
-@import "fixed-width";
-@import "list";
-@import "bordered-pulled";
-@import "animated";
-@import "rotated-flipped";
-@import "stacked";
-@import "icons";
-@import "screen-reader";
-@import "normalize";
-@import "grid";
-@import "fonts";
 @import "colorsVars";
+@import "fonts";
 @import "move";
+@import "grid";
+@import "carousel";
+
 .container_MAIN {
     position: relative;
     margin: 0 auto;
@@ -30,6 +18,7 @@
     top: 0;
     height: 100%;
     text-align: center;
+
     .bgIMg {
         margin: 0 auto;
         max-height: 920px;
@@ -44,18 +33,11 @@ body {
     padding: 0px 15px 0 15px;
 }
 
-body {
-    //    background: url(../img/Vanya_dlya_sayta.svg) no-repeat center bottom scroll;
-    //    background-size: contain;
-    //    min-height: 901px;
-}
-
 .left_side,
 .right_side {
     display: inline-block;
     width: 50%;
     position: relative;
-    float: left;
     padding: 15px 0 0 0;
 }
 
@@ -70,6 +52,7 @@ body {
     text-align: center;
     padding: 0 0 0 14%;
     float: right;
+
     .nav--li {
         padding: 0 0 0 25px;
     }
@@ -85,6 +68,7 @@ body {
     list-style: none;
     display: inline-block;
     position: relative;
+
     .li-svg {
         display: none;
     }
@@ -130,6 +114,7 @@ body {
     text-transform: uppercase;
     font-size: 19px;
     color: #fff;
+
     &:hover {
         color: $second-color;
         transition: 0.7s;
@@ -150,6 +135,7 @@ body {
     background: $bg_dark_blu;
     border-radius: 15px 15px 0 0;
     position: relative;
+
     .wrapper--loading {
         color: #fff;
         display: flex;
@@ -158,14 +144,17 @@ body {
         width: 100%;
         align-items: center;
         height: 100%;
+
         i.fa.fa-refresh.fa-spin.fa-3x.fa-fw {
             display: block;
         }
     }
+
     .article__body__RIGHT {
         height: 600px;
         padding: 18px 20px;
         color: #fff;
+
         #ee {
             height: 550px;
         }
@@ -176,6 +165,7 @@ body {
     background: $bg_dark_blu;
     border-radius: 15px;
     position: relative;
+
     .wrapper--loading {
         color: #fff;
         display: flex;
@@ -184,14 +174,17 @@ body {
         width: 100%;
         align-items: center;
         height: 100%;
+
         i.fa.fa-refresh.fa-spin.fa-3x.fa-fw {
             display: block;
         }
     }
+
     .article__body__LEFT {
         height: 300px;
         padding: 10px 20px;
         color: #fff;
+
         #ee {
             height: 280px;
         }
@@ -209,14 +202,17 @@ body {
 
 .top__header {
     width: 100%;
+
     h3 {
         margin: 10px 15px 10px 0;
         float: left;
         padding: 0px;
         color: #fff;
+
         .fa-th {
             margin: 0 0 0 23px;
         }
+
         i {
             margin: 0 0 0 5px;
             color: #fff;
@@ -242,6 +238,7 @@ body {
     position: relative;
     font-size: 15px;
     text-transform: uppercase;
+
     &:after {
         display: block;
         content: "";
@@ -275,14 +272,17 @@ body {
     width: 50%;
     text-align: right;
     padding: 30px 0;
+
     .foo_social {
         width: 310px;
         display: inline-block;
         margin: 0 40px 0 0;
+
         .foo_hrefs {
             color: #fff;
             font-size: 30px;
             margin: 0 10px;
+
             &:hover {
                 color: $second-color;
             }
@@ -295,6 +295,7 @@ body {
         color: #fff;
         font-size: 18px;
         margin: 0 10px 0 0;
+
         &:hover {
             color: $second-color;
         }
@@ -304,6 +305,7 @@ body {
 .block__work {
     margin: 0 0 20px 0;
     display: block;
+
     h4 {
         margin: 10px 0;
     }
@@ -318,25 +320,31 @@ body {
     align-items: center;
     height: 100px;
     flex-direction: row;
+
     .tec__wrap_left {
         width: 10%;
         position: relative;
+
         img {
             width: 100%;
         }
+
         margin: 0 3% 0 0;
     }
+
     .tec__wrap_right {
         width: 87%;
         position: relative;
         height: 25px;
         display: block;
+
         .inner__tec {
             border-radius: 5px;
             background: $bg_darkest_blu;
             width: 100%;
             display: inline-block;
             position: relative;
+
             .loading__tec {
                 height: 25px;
                 color: $bg_darkest_blu;
