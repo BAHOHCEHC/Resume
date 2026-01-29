@@ -3827,16 +3827,16 @@ a.current-demo {
 .moved .lineSvg {
   stroke-dasharray: 550;
   stroke-dashoffset: 0;
-  -webkit-animation: dash 1.5s linear forwards;
-  animation: dash 1.5s linear forwards;
+  -webkit-animation: dash 0.9s linear forwards;
+  animation: dash 0.9s linear forwards;
   stroke: #85F9D6;
   fill: none;
 }
 
 .moved .dot {
   stroke-opacity: 0;
-  -webkit-animation: dashTO 0.8s linear forwards;
-  animation: dashTO 0.8s linear forwards;
+  -webkit-animation: dashTO 0.6s linear forwards;
+  animation: dashTO 0.6s linear forwards;
   stroke-width: 0px;
   fill: #85F9D6;
 }

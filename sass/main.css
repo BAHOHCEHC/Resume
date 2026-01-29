@@ -4619,7 +4619,7 @@ a.current-demo {
 .moved .lineSvg {
   stroke-dasharray: 550;
   stroke-dashoffset: 0;
-  animation: dash 1.5s linear forwards;
+  animation: dash 1s linear forwards;
   stroke: #85F9D6;
   fill: none;
 }
@@ -4627,7 +4627,7 @@ a.current-demo {
 /* line 9, C:/Users/BAHOHCEHC/Desktop/Resume/app/sass/_move.scss */
 .moved .dot {
   stroke-opacity: 0;
-  animation: dashTO 0.8s linear forwards;
+  animation: dashTO 1.5s linear forwards;
   stroke-width: 0px;
   fill: #85F9D6;
 }
